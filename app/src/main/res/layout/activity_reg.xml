@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back1"
+        android:padding="8dp"
+        android:orientation="vertical"
+
+        tools:context=".RegAct">
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="REGISTER HERE"
+              android:textSize="30dp"
+              android:layout_marginTop="25dp"
+              android:layout_gravity="center"
+              android:textColor="#fff"
+
+
+    />
+
+    <Space android:layout_width="wrap_content"
+           android:layout_height="40dp"/>
+
+
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Enter Mobile No"
+            android:ems="10"
+            android:id="@+id/reg_mobile"
+            android:drawableRight="@drawable/user"
+            android:textColorHint="#fff"
+            android:layout_margin="15dp"
+            android:textColor="@android:color/white"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:inputType="textPassword"
+            android:layout_margin="15dp"
+            android:textColorHint="#fff"
+            android:drawableRight="@drawable/password"
+            android:hint="Enter Your Password"
+            android:ems="10"
+            android:id="@+id/reg_password"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:inputType="textPassword"
+            android:layout_margin="15dp"
+            android:textColorHint="#fff"
+            android:drawableRight="@drawable/password"
+            android:hint="Confirm Your Password"
+            android:ems="10"
+            android:id="@+id/reg_confirm"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:inputType="text"
+            android:layout_margin="15dp"
+            android:textColorHint="#fff"
+            android:drawableRight="@drawable/nam"
+            android:hint="Enter Your Name"
+            android:ems="10"
+            android:id="@+id/reg_name"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:inputType="text"
+            android:layout_margin="15dp"
+            android:textColorHint="#fff"
+            android:drawableRight="@drawable/add"
+            android:hint="Enter Your Address"
+            android:ems="10"
+            android:id="@+id/reg_address"/>
+
+
+
+
+
+
+
+
+    <TextView
+            android:text="Sign Up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reg_signup"
+            android:textSize="22dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:background="#3C40C6"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="25dp"
+            android:padding="8dp"
+
+    />
+
+
+
+</LinearLayout>
